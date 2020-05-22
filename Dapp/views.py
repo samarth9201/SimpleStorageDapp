@@ -4,9 +4,9 @@ from .logic import loadContract
 
 # Create your views here.
 def home(request):
-    value = loadContract.loadContract().val
+    value = loadContract.tx_hash
     context = {
-        'value': value
+        'value': value,
         }
     return render(request, "Dapp/home.html", context)
 
