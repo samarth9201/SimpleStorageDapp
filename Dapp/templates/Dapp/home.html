@@ -5,8 +5,18 @@ Home
 
 {% block body %}
 
-<h1>
-    Hello, in Home
-</h1>
+<div class="container">
+    <h2 id="id1">{{ value }}</h2>
+    <form method="post">
+        {% csrf_token %}
+        <div class="form-row">
+            <div class="col-md-6 mb-3">
+                <label for="Name"><b>Greeting</b></label>
+                <input type="text" class="form-control" id="Name" placeholder="Hello" required />
+                <button class="btn btn-primary" type="submit" name="action">Submit form</button>
+            </div>
+        </div>
+    </form>
+</div>
 
 {% endblock %}

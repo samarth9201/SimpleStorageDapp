@@ -1,4 +1,22 @@
+.navbar-dark{
+    background-color: black;
+    padding-bottom: 10px;
+}
 body{
+    background-color: gray;
+    font-display: block;
+    font-weight: 300;
+    font-size: larger;
+    color: aliceblue;
     padding: 60px 0px 60px 0px;
-    background-color: red;
+}
+input{
+    margin-bottom: 10px;
+    display:block;
+}
+#id1 {
+    background-color: white;
+    color: black;
+    padding: 1em 4em;
+    margin: 1em 0em;
 }
