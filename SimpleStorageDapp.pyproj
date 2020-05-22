@@ -35,6 +35,9 @@
     <Compile Include="Dapp\migrations\__init__.py" />
     <Compile Include="Dapp\models.py" />
     <Compile Include="Dapp\tests.py" />
+    <Compile Include="Dapp\urls.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Dapp\views.py" />
     <Compile Include="Dapp\__init__.py" />
     <Compile Include="manage.py" />
@@ -47,6 +50,9 @@
     <Content Include="Dapp\contracts\greeter.sol">
       <SubType>Code</SubType>
     </Content>
+    <Content Include="Dapp\static\Dapp\css\styles.css" />
+    <Content Include="Dapp\templates\Dapp\base.html" />
+    <Content Include="Dapp\templates\Dapp\home.html" />
     <Content Include="Dapp\templates\Dapp\index.html" />
     <Content Include="requirements.txt" />
   </ItemGroup>
@@ -54,6 +60,9 @@
     <Folder Include="Dapp\" />
     <Folder Include="Dapp\migrations\" />
     <Folder Include="Dapp\contracts\" />
+    <Folder Include="Dapp\static\" />
+    <Folder Include="Dapp\static\Dapp\" />
+    <Folder Include="Dapp\static\Dapp\css\" />
     <Folder Include="Dapp\templates\" />
     <Folder Include="Dapp\templates\Dapp\" />
     <Folder Include="SimpleStorageDapp\" />
